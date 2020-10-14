@@ -1,6 +1,6 @@
 # The first thing will be printing the introduction of the program to tell the user what the program can do
 print(' This program will solves a linear equation Y = 2x and Y = x^2/3 also draws the scaled graph of the equations ')
-# Next the input function allows the user to choos what to do weather to solve or to plote a graph
+# Next the input function allows the user to choose what to do weather to solve or to plote a graph
 input_1 = eval(input(' To solve y= 2x write "linear1" in qoute and to solve Y = x^2/3 write "linear2 " in qoute, To sketch the graph of y=2x write "graph1" and to sketch the graph of y = x^2/3 write "graph2" :  '))
 # If statment specifies for the computer what the user wants and to work on the input_1 variable input
 if input_1 == 'linear1':
@@ -32,7 +32,7 @@ if input_1 == 'graph1':
         goto(-500,10*_)
         down()
         goto(500,10*_)
-# after that we are going to xy coordinate and next we draw a line of the linear function
+# After that we are going to draw xy coordinate and next we draw a line of the linear function
     screen = turtle.Screen()
     draw = turtle.Turtle()
     screen.title('Graph sketching')
@@ -71,7 +71,7 @@ if input_1 == 'graph1':
 if input_1 == 'graph2':
 # The programm below will plote the graph of the next function y = x^2/3 
     import turtle
-# Like the anove the for loop will gonna draw a seriese of coordinates for the the y = x^2/3
+# Like the above the for loop will gonna draw a seriese of coordinates for the the y = x^2/3
     from turtle import *
     speed(500)
     hideturtle()
@@ -124,5 +124,5 @@ if input_1 == 'graph2':
     new.circle(215,-180)
 input('enter exit to quit: ')
 
-# simply this function solves y = 2x and y = x^2/3 by alowing the user to choos from those functions
+# Simply this function solves y = 2x and y = x^2/3 by alowing the user to choos from those functions
 # And plotes the graph of this two equation by sllowing the user to choose from the two functuionss
